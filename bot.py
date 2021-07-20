@@ -28,8 +28,9 @@ users_files = {}
 def start_command(message):
    keyboard = telebot.types.InlineKeyboardMarkup()
    keyboard.add(
-       telebot.types.InlineKeyboardButton('Deployed By', url='telegram.me/usmanmughal'),
-                     InlineKeyboardButton('Deployed By', url='telegram.me/usmanmughal')
+       telebot.types.InlineKeyboardButton(
+           'Deployed By', url='telegram.me/usmanmughal'
+       )
    )   
    bot.send_message(
        message.chat.id,
@@ -93,6 +94,8 @@ def help_command(message):
    keyboard = telebot.types.InlineKeyboardMarkup()
    keyboard.add(
        telebot.types.InlineKeyboardButton(
+           'Message The Developer', url='telegram.me/usmanmughal'
+       ), InlineKeyboardButton(
            'Message The Developer', url='telegram.me/usmanmughal'
        )
    )
