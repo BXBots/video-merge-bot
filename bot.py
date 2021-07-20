@@ -34,7 +34,7 @@ def start_command(message):
    )   
    bot.send_message(
        message.chat.id,
-       'Greetings! Video Merge Bot Here 🤗\n\n' +
+       'Hai\n\nIam a simple Video Merge Bot🤗\n\n' +
        'To Get Help Press /help',
        reply_markup=keyboard
    )
