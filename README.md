@@ -41,7 +41,7 @@ python3 bot.py
 
 ## Click Here!
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/usmanmughalji/video-merge-bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/bxbots/video-merge-bot)
 
 ## Updates
 
