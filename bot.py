@@ -29,7 +29,7 @@ def start_command(message):
    keyboard = telebot.types.InlineKeyboardMarkup()
    keyboard.add(
        telebot.types.InlineKeyboardButton(
-           'Deployed By', url='telegram.me/usmanmughal'
+           '🤖 Update Channel', url='telegram.me/bx_botz'
        )
    )   
    bot.send_message(
@@ -94,9 +94,7 @@ def help_command(message):
    keyboard = telebot.types.InlineKeyboardMarkup()
    keyboard.add(
        telebot.types.InlineKeyboardButton(
-           'Message The Developer', url='telegram.me/usmanmughal'
-       ), InlineKeyboardButton(
-           'Message The Developer', url='telegram.me/usmanmughal'
+           '🤖 Update Channel', url='telegram.me/bx_botz'
        )
    )
    bot.send_message(
